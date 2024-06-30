@@ -15,6 +15,8 @@ struct PinPage: View {
     @EnvironmentObject var imageViewModel: ImageViewModel
     @State private var imageScale: CGFloat = 1.0
     @State private var imageOffset: CGSize = .zero
+    @State private var showingTimePicker = false
+    @State private var currentLocation: CGPoint?
 
     var body: some View {
         VStack {
@@ -27,7 +29,8 @@ struct PinPage: View {
                             .gesture(
                                 DragGesture(minimumDistance: 0)
                                     .onEnded { value in
-                                        addPin(at: value.location, in: geometry.size)
+                                        currentLocation = value.location
+                                        showingTimePicker = true
                                     }
                             )
 
@@ -48,10 +51,50 @@ struct PinPage: View {
             }
         }
         .padding()
+        .sheet(isPresented: $showingTimePicker) {
+            TimePickerView(
+                onSave: { selectedTime in
+                    if let location = currentLocation {
+                        addPin(at: location, with: selectedTime)
+                    }
+                    showingTimePicker = false
+                },
+                onCancel: {
+                    showingTimePicker = false
+                }
+            )
+        }
     }
 
-    private func addPin(at location: CGPoint, in size: CGSize) {
-        let pin = Pin(location: location)
+    private func addPin(at location: CGPoint, with time: Date) {
+        let pin = Pin(location: location, time: time)
         imageViewModel.pins.append(pin)
+    }
+}
+
+struct TimePickerView: View {
+    @State private var selectedTime = Date()
+    var onSave: (Date) -> Void
+    var onCancel: () -> Void
+
+    var body: some View {
+        VStack {
+            DatePicker("Select Time", selection: $selectedTime, displayedComponents: .hourAndMinute)
+                .datePickerStyle(WheelDatePickerStyle())
+                .labelsHidden()
+
+            HStack {
+                Button("Cancel") {
+                    onCancel()
+                }
+                .padding()
+
+                Button("Save") {
+                    onSave(selectedTime)
+                }
+                .padding()
+            }
+        }
+        .padding()
     }
 }
