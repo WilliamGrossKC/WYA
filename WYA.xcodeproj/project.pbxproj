@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3EC2893C2C31DA9A0057A082 /* PinPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC2893B2C31DA9A0057A082 /* PinPage.swift */; };
 		3EFD244B2C2115A3001A1E39 /* WYAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD244A2C2115A3001A1E39 /* WYAApp.swift */; };
 		3EFD244D2C2115A3001A1E39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD244C2C2115A3001A1E39 /* ContentView.swift */; };
 		3EFD244F2C2115A5001A1E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFD244E2C2115A5001A1E39 /* Assets.xcassets */; };
 		3EFD24522C2115A5001A1E39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFD24512C2115A5001A1E39 /* Preview Assets.xcassets */; };
 		3EFD24542C2115A5001A1E39 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD24532C2115A5001A1E39 /* Persistence.swift */; };
 		3EFD24572C2115A5001A1E39 /* WYA.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD24552C2115A5001A1E39 /* WYA.xcdatamodeld */; };
+		3EFD245E2C2396B5001A1E39 /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD245D2C2396B5001A1E39 /* Classes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3EC2893B2C31DA9A0057A082 /* PinPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinPage.swift; sourceTree = "<group>"; };
 		3EFD24472C2115A3001A1E39 /* WYA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFD244A2C2115A3001A1E39 /* WYAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYAApp.swift; sourceTree = "<group>"; };
 		3EFD244C2C2115A3001A1E39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +26,7 @@
 		3EFD24512C2115A5001A1E39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3EFD24532C2115A5001A1E39 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		3EFD24562C2115A5001A1E39 /* WYA.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WYA.xcdatamodel; sourceTree = "<group>"; };
+		3EFD245D2C2396B5001A1E39 /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 		3EFD24492C2115A3001A1E39 /* WYA */ = {
 			isa = PBXGroup;
 			children = (
+				3EC2893B2C31DA9A0057A082 /* PinPage.swift */,
 				3EFD244A2C2115A3001A1E39 /* WYAApp.swift */,
 				3EFD244C2C2115A3001A1E39 /* ContentView.swift */,
+				3EFD245D2C2396B5001A1E39 /* Classes.swift */,
 				3EFD244E2C2115A5001A1E39 /* Assets.xcassets */,
 				3EFD24532C2115A5001A1E39 /* Persistence.swift */,
 				3EFD24552C2115A5001A1E39 /* WYA.xcdatamodeld */,
@@ -146,6 +152,8 @@
 				3EFD24542C2115A5001A1E39 /* Persistence.swift in Sources */,
 				3EFD24572C2115A5001A1E39 /* WYA.xcdatamodeld in Sources */,
 				3EFD244D2C2115A3001A1E39 /* ContentView.swift in Sources */,
+				3EFD245E2C2396B5001A1E39 /* Classes.swift in Sources */,
+				3EC2893C2C31DA9A0057A082 /* PinPage.swift in Sources */,
 				3EFD244B2C2115A3001A1E39 /* WYAApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
