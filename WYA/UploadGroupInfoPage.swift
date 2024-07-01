@@ -12,11 +12,12 @@ import CoreData
 
 struct UploadGroupInfoPage: View {
     @EnvironmentObject var appData: AppData
+    @StateObject private var newGroup = Group(groupName: "", mapImage: ImageViewModel())
     @State private var groupName: String = ""
-    @State private var newGroup = Group(groupName: "", mapImage: ImageViewModel())
     @State private var showingAlert1 = false
     @State private var showingAlert2 = false
     @State private var isImagePickerPresented = false
+    @State private var addSuccess = false
     
     var body: some View {
         VStack {
@@ -26,20 +27,9 @@ struct UploadGroupInfoPage: View {
                 .frame(maxWidth: 300) // Adjust the width of the text field
             
             
-            if let selectedImage = newGroup.mapImage.selectedImage {
-                Image(uiImage: selectedImage)
-                    .resizable()
-                    .scaledToFit()
-                    .frame(width: 300, height: 300)
-                    .clipShape(RoundedRectangle(cornerRadius: 20))
-                NavigationLink(destination: ResultPage(selectedGroup: newGroup)) {
-                    Text("Continue")
-                        .padding()
-                        .background(Color.blue)
-                        .foregroundColor(.white)
-                        .cornerRadius(8)
-                }
-                
+            if newGroup.mapImage.selectedImage != nil {
+                Text("Image Currently Selected")
+                    .font(.headline)
             } else {
                 Text("No Image Selected")
                     .font(.headline)
@@ -79,17 +69,21 @@ struct UploadGroupInfoPage: View {
                 dismissButton: .default(Text("OK"))
             )
         }
+        .navigationDestination(isPresented: $addSuccess) {
+            ResultPage(selectedGroup: newGroup)
+        }
         .padding()
     }
     
     private func addGroup() {
         if appData.getGroup(byName: groupName) != nil {
             showingAlert1 = true
-        } else if newGroup.mapImage.selectedImage == nil{
+        } else if newGroup.mapImage.selectedImage == nil {
             showingAlert2 = true
         } else {
             newGroup.groupName = groupName
             appData.addGroup(newGroup)
+            addSuccess = true
         }
     }
 }

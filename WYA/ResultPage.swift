@@ -20,42 +20,45 @@ struct ResultPage: View {
     }
 
     var body: some View {
-        NavigationView {
-            List {
-                ForEach(selectedGroup.members.values.sorted(by: { $0.name < $1.name }), id: \.name) { person in
-                    Button(action: {
-                        selectedPerson = person
-                    }) {
-                        Text(person.name)
+        VStack {
+            NavigationSplitView {
+                List {
+                    ForEach(selectedGroup.members.values.sorted(by: { $0.name < $1.name }), id: \.name) { person in
+                        Button(action: {
+                            selectedPerson = person
+                        }) {
+                            Text(person.name)
+                        }
                     }
                 }
-            }
-            .listStyle(SidebarListStyle())
-            .navigationTitle("Members")
-
-            VStack {
-                if let person = selectedPerson, let image = selectedGroup.mapImage.selectedImage {
-                    GroupImageView(image: image, pins: Array(person.pins.values), selectedPin: $selectedPin)
-                        .overlay(
-                            selectedPin.map { pin in
-                                VStack {
-                                    Text("Time: \(pin.time?.formatted() ?? "N/A")")
-                                        .padding()
-                                        .background(Color.white)
-                                        .cornerRadius(8)
-                                        .shadow(radius: 5)
+                .listStyle(SidebarListStyle())
+                .navigationTitle("Members")
+            } detail: {
+                VStack {
+                    if let person = selectedPerson, let image = selectedGroup.mapImage.selectedImage {
+                        GroupImageView(image: image, pins: Array(person.pins.values), selectedPin: $selectedPin)
+                            .overlay(
+                                selectedPin.map { pin in
+                                    VStack {
+                                        Text("Time: \(pin.time?.formatted() ?? "N/A")")
+                                            .padding()
+                                            .background(Color.white)
+                                            .cornerRadius(8)
+                                            .shadow(radius: 5)
+                                    }
+                                    .position(x: pin.location.x, y: pin.location.y - 20)
                                 }
-                                .position(x: pin.location.x, y: pin.location.y - 20)
-                            }
-                        )
-                } else {
-                    Text("Select a person to view details")
-                        .font(.headline)
+                            )
+                    } else {
+                        Text("Select a person to view details")
+                            .font(.headline)
+                    }
                 }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .navigationTitle(selectedGroup.groupName)
+                .centeredTitle()
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
-        .navigationViewStyle(DoubleColumnNavigationViewStyle())
     }
 }
 

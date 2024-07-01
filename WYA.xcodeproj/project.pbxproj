@@ -13,6 +13,7 @@
 		3EC289422C31EC6A0057A082 /* NewPersonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC289412C31EC6A0057A082 /* NewPersonPage.swift */; };
 		3EC289442C31EC820057A082 /* ResultPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC289432C31EC820057A082 /* ResultPage.swift */; };
 		3EC289462C320AFF0057A082 /* UploadGroupInfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC289452C320AFF0057A082 /* UploadGroupInfoPage.swift */; };
+		3EC289482C3332700057A082 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC289472C3332700057A082 /* Utils.swift */; };
 		3EFD244B2C2115A3001A1E39 /* WYAApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD244A2C2115A3001A1E39 /* WYAApp.swift */; };
 		3EFD244D2C2115A3001A1E39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EFD244C2C2115A3001A1E39 /* ContentView.swift */; };
 		3EFD244F2C2115A5001A1E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EFD244E2C2115A5001A1E39 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		3EC289412C31EC6A0057A082 /* NewPersonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPersonPage.swift; sourceTree = "<group>"; };
 		3EC289432C31EC820057A082 /* ResultPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultPage.swift; sourceTree = "<group>"; };
 		3EC289452C320AFF0057A082 /* UploadGroupInfoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadGroupInfoPage.swift; sourceTree = "<group>"; };
+		3EC289472C3332700057A082 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3EFD24472C2115A3001A1E39 /* WYA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EFD244A2C2115A3001A1E39 /* WYAApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYAApp.swift; sourceTree = "<group>"; };
 		3EFD244C2C2115A3001A1E39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,13 +71,14 @@
 		3EFD24492C2115A3001A1E39 /* WYA */ = {
 			isa = PBXGroup;
 			children = (
+				3EC289472C3332700057A082 /* Utils.swift */,
+				3EFD245D2C2396B5001A1E39 /* Classes.swift */,
 				3EC2893B2C31DA9A0057A082 /* PinPage.swift */,
 				3EC289452C320AFF0057A082 /* UploadGroupInfoPage.swift */,
 				3EC2893D2C31DC6B0057A082 /* InfoPage.swift */,
 				3EC2893F2C31EC5A0057A082 /* GroupNamePage.swift */,
 				3EC289412C31EC6A0057A082 /* NewPersonPage.swift */,
 				3EC289432C31EC820057A082 /* ResultPage.swift */,
-				3EFD245D2C2396B5001A1E39 /* Classes.swift */,
 				3EFD244C2C2115A3001A1E39 /* ContentView.swift */,
 				3EFD244A2C2115A3001A1E39 /* WYAApp.swift */,
 				3EFD244E2C2115A5001A1E39 /* Assets.xcassets */,
@@ -175,6 +178,7 @@
 				3EC289442C31EC820057A082 /* ResultPage.swift in Sources */,
 				3EC2893C2C31DA9A0057A082 /* PinPage.swift in Sources */,
 				3EFD244B2C2115A3001A1E39 /* WYAApp.swift in Sources */,
+				3EC289482C3332700057A082 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

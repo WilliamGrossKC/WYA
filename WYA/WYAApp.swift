@@ -10,13 +10,12 @@ import SwiftUI
 @main
 struct WYAApp: App {
     let persistenceController = PersistenceController.shared
-    @StateObject private var imageViewModel = ImageViewModel()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
-                .environmentObject(imageViewModel)
+                .environmentObject(ImageViewModel())
                 .environmentObject(AppData())
         }
     }
