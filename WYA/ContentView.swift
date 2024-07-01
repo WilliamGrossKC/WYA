@@ -10,12 +10,14 @@ import CoreData
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @EnvironmentObject var imageViewModel: ImageViewModel
-
+    
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
-
+    
+    @StateObject private var appData = AppData()
+    
     var body: some View {
         NavigationView {
             
@@ -41,10 +43,23 @@ struct ContentView: View {
                 }
             }
             
-            
             VStack {
-                Text("Group Name")
-                NavigationLink(destination: UploadImagePage()) {
+                Text("WYA")
+                NavigationLink(destination: GroupNamePage()) {
+                    Text("Check Group")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                NavigationLink(destination: NewPersonPage()) {
+                    Text("Join Group")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
+                NavigationLink(destination: UploadGroupInfoPage()) {
                     Text("Create Group")
                         .padding()
                         .background(Color.blue)
@@ -54,7 +69,7 @@ struct ContentView: View {
             }
         }
     }
-    
+
     // Auto generated method
     private func addItem() {
         withAnimation {
@@ -98,4 +113,5 @@ private let itemFormatter: DateFormatter = {
     ContentView()
         .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
         .environmentObject(ImageViewModel())
+        .environmentObject(AppData()) 
 }

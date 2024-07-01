@@ -17,6 +17,7 @@ struct WYAApp: App {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .environmentObject(imageViewModel)
+                .environmentObject(AppData())
         }
     }
 }

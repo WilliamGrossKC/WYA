@@ -17,7 +17,6 @@ struct Pin: Identifiable {
 
 class ImageViewModel: ObservableObject {
     @Published var selectedImage: UIImage?
-    @Published var pins: [Pin] = []
 }
 
 class Person: ObservableObject {

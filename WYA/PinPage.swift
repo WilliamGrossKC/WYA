@@ -12,63 +12,83 @@ import CoreData
 
 // Putting pins page
 struct PinPage: View {
-    @EnvironmentObject var imageViewModel: ImageViewModel
+    @EnvironmentObject var appData: AppData
+    @ObservedObject var currGroup: Group
+    @ObservedObject var currPerson: Person
     @State private var imageScale: CGFloat = 1.0
     @State private var imageOffset: CGSize = .zero
     @State private var showingTimePicker = false
     @State private var currentLocation: CGPoint?
+    @State private var navigateToNextPage = false
 
     var body: some View {
-        VStack {
-            if let selectedImage = imageViewModel.selectedImage {
-                GeometryReader { geometry in
-                    ZStack {
-                        Image(uiImage: selectedImage)
-                            .resizable()
-                            .scaledToFit()
-                            .gesture(
-                                DragGesture(minimumDistance: 0)
-                                    .onEnded { value in
-                                        currentLocation = value.location
-                                        showingTimePicker = true
-                                    }
-                            )
-
-                        ForEach(imageViewModel.pins) { pin in
-                            Circle()
-                                .fill(Color.red)
-                                .frame(width: 10, height: 10)
-                                .position(x: pin.location.x, y: pin.location.y)
+        NavigationStack {
+            VStack {
+                if let selectedImage = currGroup.mapImage.selectedImage {
+                    GeometryReader { geometry in
+                        ZStack {
+                            Image(uiImage: selectedImage)
+                                .resizable()
+                                .scaledToFit()
+                                .gesture(
+                                    DragGesture(minimumDistance: 0)
+                                        .onEnded { value in
+                                            currentLocation = value.location
+                                            showingTimePicker = true
+                                        }
+                                )
+                            
+                            ForEach(currPerson.pins.values.sorted(by: { $0.id.uuidString < $1.id.uuidString }), id: \.id) { pin in
+                                Circle()
+                                    .fill(Color.red)
+                                    .frame(width: 10, height: 10)
+                                    .position(x: pin.location.x, y: pin.location.y)
+                            }
                         }
+                        .frame(width: geometry.size.width, height: geometry.size.height)
                     }
-                    .frame(width: geometry.size.width, height: geometry.size.height)
+                    .clipShape(RoundedRectangle(cornerRadius: 20))
+                    .padding()
+                } else {
+                    Text("No Image Selected")
+                        .font(.headline)
                 }
-                .clipShape(RoundedRectangle(cornerRadius: 20))
+                
+                Button(action: {
+                    navigateToNextPage = true
+                }) {
+                    Text("Submit")
+                        .padding()
+                        .background(Color.blue)
+                        .foregroundColor(.white)
+                        .cornerRadius(8)
+                }
                 .padding()
-            } else {
-                Text("No Image Selected")
-                    .font(.headline)
+                
             }
-        }
-        .padding()
-        .sheet(isPresented: $showingTimePicker) {
-            TimePickerView(
-                onSave: { selectedTime in
-                    if let location = currentLocation {
-                        addPin(at: location, with: selectedTime)
+            .padding()
+            .sheet(isPresented: $showingTimePicker) {
+                TimePickerView(
+                    onSave: { selectedTime in
+                        if let location = currentLocation {
+                            addPin(at: location, with: selectedTime)
+                        }
+                        showingTimePicker = false
+                    },
+                    onCancel: {
+                        showingTimePicker = false
                     }
-                    showingTimePicker = false
-                },
-                onCancel: {
-                    showingTimePicker = false
-                }
-            )
+                )
+            }
+            .navigationDestination(isPresented: $navigateToNextPage) {
+                ResultPage(selectedGroup: currGroup)
+            }
         }
     }
 
     private func addPin(at location: CGPoint, with time: Date) {
         let pin = Pin(location: location, time: time)
-        imageViewModel.pins.append(pin)
+        currPerson.addPin(pin)
     }
 }
 
