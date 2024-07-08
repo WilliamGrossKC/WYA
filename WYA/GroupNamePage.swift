@@ -51,6 +51,9 @@ struct GroupNamePage: View {
                 }
             }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.black)
+        .ignoresSafeArea(edges: .horizontal)
         .navigationViewStyle(StackNavigationViewStyle())
     }
     

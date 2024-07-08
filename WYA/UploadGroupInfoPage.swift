@@ -24,35 +24,41 @@ struct UploadGroupInfoPage: View {
             TextField("Enter Group Name", text: $groupName)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
-                .frame(maxWidth: 300) // Adjust the width of the text field
+                .frame(maxWidth: 220) // Adjust the width of the text field
             
             
             if newGroup.mapImage.selectedImage != nil {
                 Text("Image Currently Selected")
                     .font(.headline)
+                    .foregroundColor(.white)
             } else {
                 Text("No Image Selected")
                     .font(.headline)
+                    .foregroundColor(.white)
             }
             Button(action: {
                 isImagePickerPresented = true
             }) {
                 Text("Upload Image")
                     .padding()
+                    .font(.title)
+                    .frame(width: 200, height: 60)
                     .background(Color.blue)
                     .foregroundColor(.white)
-                    .cornerRadius(8)
+                    .cornerRadius(10)
             }
             .sheet(isPresented: $isImagePickerPresented) {
                 ImagePicker(image: $newGroup.mapImage.selectedImage)
             }
-            
+            .padding()
             Button(action: addGroup) {
-                Text("Submit")
+                Text("Submit Group")
                     .padding()
+                    .font(.title)
+                    .frame(width: 200, height: 60)
                     .background(Color.blue)
                     .foregroundColor(.white)
-                    .cornerRadius(8)
+                    .cornerRadius(10)
             }
         }
         .alert(isPresented: $showingAlert1) {
@@ -73,6 +79,9 @@ struct UploadGroupInfoPage: View {
             ResultPage(selectedGroup: newGroup)
         }
         .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.black)
+        .ignoresSafeArea(edges: .horizontal)
     }
     
     private func addGroup() {

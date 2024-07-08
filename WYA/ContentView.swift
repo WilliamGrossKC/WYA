@@ -15,40 +15,47 @@ struct ContentView: View {
     
     var body: some View {
         NavigationStack {
-            VStack(spacing: 20) {
+            VStack(spacing: 40) { // Increased spacing between elements
                 Text("WYA")
                     .font(.largeTitle)
                     .padding()
                     .background(Color.blue)
+                    .foregroundColor(.white) // Ensure the text is visible on the blue background
+                    .cornerRadius(10)
                 
                 NavigationLink(destination: GroupNamePage()) {
                     Text("Check Group")
-                        .padding()
-                        .background(Color.blue)
+                        .font(.title) // Larger text
+                        .frame(width: 200, height: 60) // Bigger and square shape
+                        .background(Color.pink)
                         .foregroundColor(.white)
-                        .cornerRadius(8)
+                        .cornerRadius(10)
                 }
                 
                 NavigationLink(destination: NewPersonPage()) {
                     Text("Join Group")
-                        .padding()
-                        .background(Color.blue)
+                        .font(.title) // Larger text
+                        .frame(width: 200, height: 60) // Bigger and square shape
+                        .background(Color.purple)
                         .foregroundColor(.white)
-                        .cornerRadius(8)
+                        .cornerRadius(10)
                 }
                 
                 NavigationLink(destination: UploadGroupInfoPage()) {
                     Text("Create Group")
-                        .padding()
+                        .font(.title) // Larger text
+                        .frame(width: 200, height: 60) // Bigger and square shape
                         .background(Color.blue)
                         .foregroundColor(.white)
-                        .cornerRadius(8)
+                        .cornerRadius(10)
                 }
                 
                 Spacer()
             }
             .padding()
-            .background(Color.gray.opacity(0.1))
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.black)
+            .ignoresSafeArea(edges: .horizontal)
         }
     }
 }

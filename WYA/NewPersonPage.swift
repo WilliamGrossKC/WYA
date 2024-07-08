@@ -67,6 +67,9 @@ struct NewPersonPage: View {
                 }
             }
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.black)
+        .ignoresSafeArea(edges: .horizontal)
         .navigationViewStyle(StackNavigationViewStyle())
     }
     

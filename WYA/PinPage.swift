@@ -9,6 +9,26 @@ import Foundation
 import SwiftUI
 import CoreData
 
+// Custom Pin Shape
+struct PinShape: Shape {
+    func path(in rect: CGRect) -> Path {
+        var path = Path()
+        let circleRadius = rect.width / 2
+        let circleCenter = CGPoint(x: rect.midX, y: circleRadius)
+        
+        // Circle part of the pin
+        path.addEllipse(in: CGRect(x: circleCenter.x - circleRadius, y: 0, width: circleRadius * 2, height: circleRadius * 2))
+        
+        // Triangle part of the pin
+        path.move(to: circleCenter)
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.height))
+        path.addLine(to: CGPoint(x: rect.midX - circleRadius, y: circleRadius))
+        path.addLine(to: CGPoint(x: rect.midX + circleRadius, y: circleRadius))
+        path.addLine(to: CGPoint(x: rect.midX, y: rect.height))
+        
+        return path
+    }
+}
 
 // Putting pins page
 struct PinPage: View {
@@ -39,9 +59,9 @@ struct PinPage: View {
                                 )
                             
                             ForEach(currPerson.pins.values.sorted(by: { $0.id.uuidString < $1.id.uuidString }), id: \.id) { pin in
-                                Circle()
+                                PinShape()
                                     .fill(Color.red)
-                                    .frame(width: 10, height: 10)
+                                    .frame(width: 10, height: 20) // Pin shape size
                                     .position(x: pin.location.x, y: pin.location.y)
                             }
                         }
@@ -52,6 +72,7 @@ struct PinPage: View {
                 } else {
                     Text("No Image Selected")
                         .font(.headline)
+                        .foregroundColor(.white)
                 }
                 
                 Button(action: {
@@ -64,9 +85,9 @@ struct PinPage: View {
                         .cornerRadius(8)
                 }
                 .padding()
-                
             }
             .padding()
+            .background(Color.black)
             .sheet(isPresented: $showingTimePicker) {
                 TimePickerView(
                     onSave: { selectedTime in
