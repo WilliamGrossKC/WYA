@@ -1,0 +1,101 @@
+{
+  "": {
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/master.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Aggregate.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Aggregate.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Aggregate.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Aggregate~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Aggregate.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Count.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Count.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Count.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Count~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Count.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/CreateIndexes.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/CreateIndexes.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/CreateIndexes.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/CreateIndexes~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/CreateIndexes.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Delete.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Delete.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Delete.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Delete~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Delete.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Distinct.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Distinct.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Distinct.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Distinct~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Distinct.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Drop.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Drop.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Drop.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Drop~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Drop.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Find.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Find.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Find.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Find~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Find.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/FindAndModify.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/FindAndModify.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/FindAndModify.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/FindAndModify~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/FindAndModify.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Insert.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Insert.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Insert.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Insert~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Insert.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/ListCollections.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/ListCollections.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/ListCollections.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/ListCollections~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/ListCollections.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/ListDatabases.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/ListDatabases.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/ListDatabases.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/ListDatabases~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/ListDatabases.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Update.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Update.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Update.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Update~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Update.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Cursor.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Cursor.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Cursor.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Cursor~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Cursor.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/QueryPrimitives/Projection.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Projection.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Projection.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Projection~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Projection.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/QueryPrimitives/QueryBuilder.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/QueryBuilder.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/QueryBuilder.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/QueryBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/QueryBuilder.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/QueryPrimitives/Sort.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Sort.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Sort.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Sort~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoKittenCore.build/Sort.swiftdeps"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "": {
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/master.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/AES_CBC.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CBC.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CBC.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CBC~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CBC.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/AES_CFB.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/AES_CTR.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/AES_GCM_SIV.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/Block Function.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/Block Function.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/Block Function.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/Block Function~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/Block Function.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/BoringSSL/AES_CFB_boring.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB_boring.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB_boring.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CFB_boring.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/BoringSSL/AES_CTR_boring.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR_boring.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR_boring.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_CTR_boring.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/AES/BoringSSL/AES_GCM_SIV_boring.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV_boring.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV_boring.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/AES_GCM_SIV_boring.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/ChaCha20CTR/BoringSSL/ChaCha20CTR_boring.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR_boring.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR_boring.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR_boring.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/ChaCha20CTR/ChaCha20CTR.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/ChaCha20CTR.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/RSA/RSA+BlindSigning.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA+BlindSigning.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA+BlindSigning.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA+BlindSigning~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA+BlindSigning.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/RSA/RSA.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/RSA/RSA_boring.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_boring.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_boring.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_boring.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/RSA/RSA_security.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_security.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_security.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_security~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RSA_security.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/BoringSSLHelpers.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/BoringSSLHelpers.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/BoringSSLHelpers.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/BoringSSLHelpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/BoringSSLHelpers.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/CryptoKitErrors_boring.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/CryptoKitErrors_boring.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/CryptoKitErrors_boring.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/CryptoKitErrors_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/CryptoKitErrors_boring.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/DigestType.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/DigestType.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/DigestType.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/DigestType~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/DigestType.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/Error.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/Error.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/Error.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/Error.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/PEMDocument.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/PEMDocument.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/PEMDocument.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/PEMDocument~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/PEMDocument.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/RandomBytes.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RandomBytes.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RandomBytes.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RandomBytes~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/RandomBytes.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/_CryptoExtras/Util/SubjectPublicKeyInfo.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/SubjectPublicKeyInfo.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/SubjectPublicKeyInfo.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/SubjectPublicKeyInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/SubjectPublicKeyInfo.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/resource_bundle_accessor.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_CryptoExtras.build/resource_bundle_accessor.swiftdeps"
+  }
+}

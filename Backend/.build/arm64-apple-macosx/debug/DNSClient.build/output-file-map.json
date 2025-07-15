@@ -1,0 +1,77 @@
+{
+  "": {
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/master.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Client.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Client.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Client.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Client~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Client.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/DNSClient+Connect.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSClient+Connect.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSClient+Connect.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSClient+Connect~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSClient+Connect.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/DNSClient+Query.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSClient+Query.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSClient+Query.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSClient+Query~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSClient+Query.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/DNSDecoder.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSDecoder.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSDecoder.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSDecoder.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/DNSEncoder.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSEncoder.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSEncoder.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/DNSEncoder.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Errors.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Errors.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Errors.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Errors~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Errors.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Helpers.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Helpers.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Helpers.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Helpers.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Messages/Message.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Message.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Message.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Message~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/Message.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Messages/MessageOptions.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/MessageOptions.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/MessageOptions.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/MessageOptions~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/MessageOptions.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/PTR.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/PTR.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/PTR.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/PTR~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/PTR.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/ResolvConf/ConfigParser.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/ConfigParser.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/ConfigParser.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/ConfigParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/ConfigParser.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/SRV.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/SRV.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/SRV.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/SRV~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/DNSClient.build/SRV.swiftdeps"
+  }
+}

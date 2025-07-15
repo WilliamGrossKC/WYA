@@ -1,0 +1,12 @@
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Client.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/DNSClient+Connect.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/DNSClient+Query.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/DNSDecoder.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/DNSEncoder.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Errors.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Helpers.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Messages/Message.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/Messages/MessageOptions.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/PTR.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/ResolvConf/ConfigParser.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/DNSClient/Sources/DNSClient/SRV.swift

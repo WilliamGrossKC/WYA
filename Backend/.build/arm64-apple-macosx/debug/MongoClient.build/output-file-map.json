@@ -1,0 +1,125 @@
+{
+  "": {
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/master.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Authenticate+ChallengeResponse.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate+ChallengeResponse.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate+ChallengeResponse.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate+ChallengeResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate+ChallengeResponse.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Authenticate+SASL.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate+SASL.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate+SASL.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate+SASL~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate+SASL.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Authenticate.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Authenticate.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Channel+Connection.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Channel+Connection.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Channel+Connection.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Channel+Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Channel+Connection.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Cluster.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Cluster.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Cluster.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Cluster~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Cluster.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Connection+Execute.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Connection+Execute.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Connection+Execute.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Connection+Execute~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Connection+Execute.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Connection.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Connection.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Connection.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Connection.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/ConnectionContext.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/ConnectionContext.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/ConnectionContext.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/ConnectionContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/ConnectionContext.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/ConnectionPool.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/ConnectionPool.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/ConnectionPool.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/ConnectionPool~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/ConnectionPool.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Cursor.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Cursor.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Cursor.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Cursor~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Cursor.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Error.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Error.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Error.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Error.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Exports.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Exports.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Exports.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Exports.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Helpers.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Helpers.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Helpers.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/Helpers.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/InternalCommands/GetMore.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/GetMore.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/GetMore.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/GetMore~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/GetMore.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/InternalCommands/IsMaster.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/IsMaster.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/IsMaster.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/IsMaster~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/IsMaster.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/InternalCommands/KillCursors.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/KillCursors.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/KillCursors.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/KillCursors~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/KillCursors.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/MongoMiddleware.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/MongoMiddleware.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/MongoMiddleware.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/MongoMiddleware~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/MongoMiddleware.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Responses/MongoCursorResponse.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/MongoCursorResponse.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/MongoCursorResponse.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/MongoCursorResponse~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/MongoCursorResponse.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/Responses/OK.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/OK.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/OK.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/OK~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/OK.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoClient/SASL.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/SASL.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/SASL.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/SASL~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/MongoClient.build/SASL.swiftdeps"
+  }
+}

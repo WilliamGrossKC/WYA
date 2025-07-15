@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/master.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-nio/Sources/NIOFileSystemFoundationCompat/Date+FileInfo.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Date+FileInfo.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Date+FileInfo.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Date+FileInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_NIOFileSystemFoundationCompat.build/Date+FileInfo.swiftdeps"
+  }
+}

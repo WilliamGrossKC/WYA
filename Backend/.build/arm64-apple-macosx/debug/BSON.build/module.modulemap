@@ -1,0 +1,4 @@
+module BSON {
+    header "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/BSON.build/BSON-Swift.h"
+    requires objc
+}

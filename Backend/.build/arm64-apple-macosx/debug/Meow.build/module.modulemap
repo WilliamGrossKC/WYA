@@ -1,0 +1,4 @@
+module Meow {
+    header "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/Meow.build/Meow-Swift.h"
+    requires objc
+}

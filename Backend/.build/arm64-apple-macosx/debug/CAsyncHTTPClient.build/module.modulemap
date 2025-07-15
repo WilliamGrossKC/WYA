@@ -1,0 +1,4 @@
+module CAsyncHTTPClient {
+    umbrella header "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/async-http-client/Sources/CAsyncHTTPClient/include/CAsyncHTTPClient.h"
+    export *
+}

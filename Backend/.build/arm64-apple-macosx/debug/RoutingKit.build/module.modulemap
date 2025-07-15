@@ -1,0 +1,4 @@
+module RoutingKit {
+    header "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/RoutingKit.build/RoutingKit-Swift.h"
+    requires objc
+}

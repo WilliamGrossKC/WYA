@@ -1,0 +1,35 @@
+{
+  "": {
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/master.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/CryptoBoringWrapper/AEAD/BoringSSLAEAD.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/BoringSSLAEAD.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/BoringSSLAEAD.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/BoringSSLAEAD~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/BoringSSLAEAD.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/CryptoBoringWrapper/CryptoKitErrors_boring.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/CryptoKitErrors_boring.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/CryptoKitErrors_boring.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/CryptoKitErrors_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/CryptoKitErrors_boring.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/CryptoBoringWrapper/Util/ArbitraryPrecisionInteger_boring.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/ArbitraryPrecisionInteger_boring.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/ArbitraryPrecisionInteger_boring.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/ArbitraryPrecisionInteger_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/ArbitraryPrecisionInteger_boring.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-crypto/Sources/CryptoBoringWrapper/Util/FiniteFieldArithmeticContext_boring.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/FiniteFieldArithmeticContext_boring.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/FiniteFieldArithmeticContext_boring.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/FiniteFieldArithmeticContext_boring~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/FiniteFieldArithmeticContext_boring.swiftdeps"
+  },
+  "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/resource_bundle_accessor.d",
+    "object": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/CryptoBoringWrapper.build/resource_bundle_accessor.swiftdeps"
+  }
+}

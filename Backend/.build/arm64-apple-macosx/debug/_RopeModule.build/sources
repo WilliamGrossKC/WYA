@@ -1,0 +1,76 @@
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString+Builder.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString+Contents.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString+Debugging.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString+Index.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString+Ingester.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString+Invariants.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString+Iterators.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString+Metrics.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString+Summary.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Basics/BigString.swift
+'/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Chunk/BigString+Chunk+Append and Insert.swift'
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Chunk/BigString+Chunk+Breaks.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Chunk/BigString+Chunk+Counts.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Chunk/BigString+Chunk+Description.swift
+'/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Chunk/BigString+Chunk+Indexing by Characters.swift'
+'/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Chunk/BigString+Chunk+Indexing by UTF16.swift'
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Chunk/BigString+Chunk+RopeElement.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Chunk/BigString+Chunk+Splitting.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Chunk/BigString+Chunk.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+BidirectionalCollection.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+Comparable.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+CustomDebugStringConvertible.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+CustomStringConvertible.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+Equatable.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+ExpressibleByStringLiteral.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+Hashing.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+LosslessStringConvertible.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+RangeReplaceableCollection.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+Sequence.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Conformances/BigString+TextOutputStream.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Operations/BigString+Append.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Operations/BigString+Initializers.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Operations/BigString+Insert.swift
+'/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Operations/BigString+Managing Breaks.swift'
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Operations/BigString+RemoveSubrange.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Operations/BigString+ReplaceSubrange.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Operations/BigString+Split.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Operations/Range+BigString.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Views/BigString+UTF16View.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Views/BigString+UTF8View.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Views/BigString+UnicodeScalarView.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Views/BigSubstring+UTF16View.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Views/BigSubstring+UTF8View.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Views/BigSubstring+UnicodeScalarView.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/BigString/Views/BigSubstring.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/Rope+Builder.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/Rope+Debugging.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/Rope+Invariants.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/Rope+_Node.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/Rope+_Storage.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/Rope+_UnmanagedLeaf.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/Rope+_UnsafeHandle.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/Rope.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/RopeElement.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/RopeMetric.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/RopeSummary.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/_RopeItem.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/_RopePath.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Basics/_RopeVersion.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Conformances/Rope+Collection.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Conformances/Rope+Index.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Conformances/Rope+Sequence.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+Append.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+Extract.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+Find.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+ForEachWhile.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+Insert.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+Join.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+MutatingForEach.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+Remove.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+RemoveSubrange.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Rope/Operations/Rope+Split.swift
+'/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Utilities/Optional Utilities.swift'
+'/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Utilities/String Utilities.swift'
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Utilities/String.Index+ABI.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/swift-collections/Sources/RopeModule/Utilities/_CharacterRecognizer.swift

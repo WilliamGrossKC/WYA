@@ -1,0 +1,4 @@
+module _MongoKittenCrypto {
+    header "/Users/willsaccount/Desktop/WYA/Backend/.build/arm64-apple-macosx/debug/_MongoKittenCrypto.build/_MongoKittenCrypto-Swift.h"
+    requires objc
+}

@@ -1,0 +1,16 @@
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Aggregate.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Count.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/CreateIndexes.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Delete.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Distinct.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Drop.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Find.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/FindAndModify.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Insert.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/ListCollections.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/ListDatabases.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Commands/Update.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/Cursor.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/QueryPrimitives/Projection.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/QueryPrimitives/QueryBuilder.swift
+/Users/willsaccount/Desktop/WYA/Backend/.build/checkouts/MongoKitten/Sources/MongoKittenCore/QueryPrimitives/Sort.swift
